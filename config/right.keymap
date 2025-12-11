@@ -14,12 +14,12 @@
             // |  Q  |  W  |  E  |  R  |  T  |  Y  |
             // |  A  |  S  |  D  |  F  |  G  |  H  |
             // |  Z  |  X  |  C  |  V  |  B  |  N  |
-            //       | GUI | LWR | SPC |
+            // | GUI | LWR | SPC |
             bindings = <
                 &kp Q    &kp W    &kp E     &kp R     &kp T     &kp Y
                 &kp A    &kp S    &kp D     &kp F     &kp G     &kp H
                 &kp Z    &kp X    &kp C     &kp V     &kp B     &kp N
-                         &kp LGUI &mo 1     &kp SPACE
+                &kp LGUI &mo 1     &kp SPACE
             >;
         };
         
@@ -28,12 +28,12 @@
             // |  1  |  2  |  3  |  4  |  5  |  6  |
             // | TAB | LFT | DWN | UP  | RGT |     |
             // | BT1 | BT2 | BT3 | BT4 | BT5 | CLR |
-            //       |     |     | ENT |
+            // |     |     | ENT |
             bindings = <
                 &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6
                 &kp TAB      &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &trans
                 &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
-                             &trans       &trans       &kp RET
+                &trans       &trans       &kp RET
             >;
         };
         
@@ -42,12 +42,12 @@
             // | ESC |  @  |  #  |  $  |  %  |  ^  |
             // |  !  |  -  |  =  |  [  |  ]  |  \  |
             // |  ~  |  _  |  +  |  {  |  }  |  |  |
-            //       |     | RSE |     |
+            // |     | RSE |     |
             bindings = <
                 &kp ESC   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT &kp CARET
                 &kp EXCL  &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT  &kp BSLH
                 &kp TILDE &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE
-                          &trans    &mo 2     &trans
+                &trans    &mo 2     &trans
             >;
         };
     };

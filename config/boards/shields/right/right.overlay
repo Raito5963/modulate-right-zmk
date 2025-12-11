@@ -33,12 +33,12 @@
         diode-direction = "col2row";
         
         col-gpios
-            = <&gpio1 11 GPIO_ACTIVE_HIGH>  // col0 - D6/TX/P1.11
-            , <&gpio1 10 GPIO_ACTIVE_HIGH>  // col1 - D7/RX/P1.10
-            , <&gpio1 13 GPIO_ACTIVE_HIGH>  // col2 - D8/SCK/P1.13
-            , <&gpio1 15 GPIO_ACTIVE_HIGH>  // col3 - D9/MISO/P1.15
-            , <&gpio1 14 GPIO_ACTIVE_HIGH>  // col4 - D10/MOSI/P1.14
-            , <&gpio0 9 GPIO_ACTIVE_HIGH>   // col5 - NFC1/P0.09
+            = <&gpio0 9 GPIO_ACTIVE_HIGH>   // col0 - NFC1/P0.09 (回路図のcol5)
+            , <&gpio1 13 GPIO_ACTIVE_HIGH>  // col1 - D8/SCK/P1.13 (回路図のcol2)
+            , <&gpio1 14 GPIO_ACTIVE_HIGH>  // col2 - D10/MOSI/P1.14 (回路図のcol4)
+            , <&gpio1 10 GPIO_ACTIVE_HIGH>  // col3 - D7/RX/P1.10 (回路図のcol1)
+            , <&gpio1 15 GPIO_ACTIVE_HIGH>  // col4 - D9/MISO/P1.15 (回路図のcol3)
+            , <&gpio1 11 GPIO_ACTIVE_HIGH>  // col5 - D6/TX/P1.11 (回路図のcol0)
             ;
         
         row-gpios

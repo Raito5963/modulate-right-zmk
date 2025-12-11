@@ -11,15 +11,15 @@
         
         default_layer {
             // Test layout - each key shows its position
-            // Row0: 5 4 3 2 1 0
+            // Row0: 0 1 2 3 4 5
             // Row1: @ @ @ @ @ @
             // Row2: @ @ @ @ @ @
-            // Row3:       C B A (col3,4,5)
+            // Row3:   A B C (col1,2,3)
             bindings = <
-                &kp N5 &kp N4    &kp N3 &kp N2    &kp N1 &kp N0
+                &kp N0 &kp N1    &kp N2 &kp N3    &kp N4 &kp N5
                 &none  &none     &none  &none     &none  &none
                 &none  &none     &none  &none     &none  &none
-                                        &kp C     &kp B  &kp A
+                       &kp A     &kp B  &kp C
             >;
         };
         

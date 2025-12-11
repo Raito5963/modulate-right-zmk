@@ -1,0 +1,6 @@
+# Copyright (c) 2025
+# SPDX-License-Identifier: MIT
+
+include:
+  - board: seeeduino_xiao_ble
+    shield: right

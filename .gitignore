@@ -1,0 +1,11 @@
+modules/
+tools/
+zephyr/
+bootloader/
+zmk/
+build/
+.west/
+*.swp
+*.swo
+*~
+.DS_Store

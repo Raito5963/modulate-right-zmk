@@ -4,7 +4,7 @@ Xiao nRF52840を使用したカスタムキーボードのZMKファームウェ�
 
 ## 仕様
 
-- **マイコン**: Seeed Studio Xiao nRF52840
+- **マイコン**: Seeed Studio Xiao BLE (nRF52840)
 - **キー数**: 24キー (6列×3行 + 3キー)
 - **機能**: 
   - Bluetooth LE接続
@@ -59,7 +59,7 @@ west update
 west zephyr-export
 
 # ビルド
-west build -b seeeduino_xiao_ble -- -DSHIELD=right
+west build -b xiao_ble -- -DSHIELD=right
 
 # ファームウェアのフラッシュ
 # 1. Xiao nRF52840をブートローダーモードにする（RSTを2回押す）
